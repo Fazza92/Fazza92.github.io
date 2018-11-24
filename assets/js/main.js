@@ -158,7 +158,7 @@
 					))
 					.appendTo($body);
 
-			// Scrollex.
+			Scrollex.
 				$this.scrollex({
 					mode: 'middle',
 					delay: 200,

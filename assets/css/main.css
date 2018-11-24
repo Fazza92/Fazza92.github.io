@@ -85,7 +85,7 @@ input, select, textarea {
 	html {
 		background-color: #313a3d;
 		background-attachment: fixed,						fixed;
-		background-image: url("https://images.unsplash.com/photo-1534516338021-92f55c5ecf60?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=09a35bf052ee8f78c7a316f370f01cc8&auto=format&fit=crop&w=976&q=80"), ;
+		background-image: url("https://images.unsplash.com/photo-1538497007306-2ab36d3ef340?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7d2d299fde72e7e7116269c15714401f&auto=format&fit=crop&w=1950&q=80"), ;
 		background-position: top left,					center center;
 		background-repeat: repeat,						none;
 		background-size: auto,						cover;
@@ -124,8 +124,8 @@ input, select, textarea {
 	}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-moz-		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
@@ -2709,7 +2709,7 @@ input, select, textarea {
 	}
 
 		.main .image.primary {
-			display: none;
+			/*display: none;*/
 		}
 
 		.main .container {
@@ -2719,11 +2719,11 @@ input, select, textarea {
 		}
 
 			.main .container:before {
-				min-height: calc( 100vh - 13em );
+		/*		min-height: calc( 100vh - 13em );
 				content: '';
 				display: inline-block;
 				vertical-align: middle;
-				width: 1px;
+				width: 1px;*/
 			}
 
 			.main .container .content {
